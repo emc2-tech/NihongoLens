@@ -27,77 +27,144 @@
 <body>
 
 <h1>Privacy Policy for Nihongo Lens</h1>
-<p class="updated">Last updated: September 28, 2026</p>
+<p class="updated">Last updated: November 24, 2026</p>
 
 <p>
-  Nihongo Lens ("the app") is a camera-based Japanese vocabulary app. It identifies
-  objects and dishes and shows their Japanese translation, and it can read Japanese
-  text and translate it into English. This policy explains what happens to your
-  information when you use it.
+  Nihongo Lens ("the app") is a camera-based app for learning Japanese. It identifies
+  objects and dishes and shows their Japanese names, reads Japanese text and translates
+  it into English, and helps two people talk across Japanese and English in Chat mode.
+  You can save words to a Vocab list and practise them in Test mode, including by
+  speaking your answers. This policy explains what happens to your information when
+  you use it.
 </p>
 
 <h2>The short version</h2>
 <p>
-  Nihongo Lens does not collect, store, or transmit your photos, your camera images,
-  or the text your camera reads. Recognition and translation happen on your device.
-  We do not run any servers, we do not receive data from your use of the app, and we
-  do not build a profile of you. The only technical information that leaves your
-  device is described under "Diagnostics from Google's ML Kit" and "Subscriptions and
-  payments" below, and it goes to Google, not to us.
+  We (the developer) do not collect, store or receive any of your information. We run
+  no servers, we have no user accounts, and we do not build a profile of you. Camera
+  images and the text your camera reads are processed on your device and never leave
+  it. Your Vocab list and study progress are stored only on your device. When you use
+  the microphone, your speech is turned into text by your phone's speech recognition
+  service, which is provided by Google and may send audio to Google if the phone has
+  no offline speech pack for that language (see "Microphone and speech recognition").
+  The only other information that leaves your device goes to Google, as described
+  under "Diagnostics from Google's ML Kit" and "Subscriptions and payments".
 </p>
+
+<h2>Permissions the app asks for</h2>
+<ul>
+  <li><strong>Camera</strong>: to recognise objects, dishes and text.</li>
+  <li><strong>Microphone</strong>: only for Chat mode and for spoken answers in Test mode.
+    The app asks for it the first time you use one of those features, and the rest of
+    the app works without it.</li>
+</ul>
 
 <h2>Camera and images</h2>
 <p>
-  The app uses your device's camera to recognize objects, dishes, and text in real
+  The app uses your device's camera to recognise objects, dishes and text in real
   time. This processing happens on your device. In General and Dish modes, the
   recognition models are packaged inside the app. In Text mode, Japanese text
   recognition uses Google's ML Kit, delivered through Google Play services, and also
-  runs on your device. No image, video frame, photo, or recognized text is uploaded,
-  stored, saved to disk, or sent anywhere, including to us. Camera frames are analyzed
-  in memory and immediately discarded.
+  runs on your device. No image, video frame, photo or recognised text is uploaded or
+  sent anywhere, including to us. Camera frames are analysed in memory and immediately
+  discarded. The only words kept are the ones you choose to save to your Vocab list.
 </p>
 
-<h2>Speech</h2>
+<h2>Microphone and speech recognition</h2>
 <p>
-  The app uses your device's built-in text-to-speech engine to pronounce Japanese
-  words aloud. The app does not use your microphone and does not record audio.
+  In Chat mode and in Test mode's speaking practice, you can tap a microphone button
+  and speak. The app listens only while that button is active, and it does not save,
+  store or send recordings itself. Your speech is turned into text by your phone's
+  speech recognition service (on most Android phones this is provided by Google).
+</p>
+<ul>
+  <li>The app asks for recognition to happen on your device when an offline speech
+    pack for that language is installed.</li>
+  <li>If your phone has no offline pack for that language, the speech recognition
+    service may send the audio to Google over the internet to turn it into text. This
+    is handled by Google under its own privacy policy, not by us, and we never receive
+    the audio or the text.</li>
+  <li>The text that comes back is used on your device, for example to show and
+    translate what was said in Chat mode, or to check your answer in Test mode.</li>
+</ul>
+<p>
+  To keep recognition on your device, you can install offline speech packs for
+  Japanese and English in your phone's settings (usually under Settings &gt; Google &gt;
+  Voice, or your keyboard's voice-typing settings).
+</p>
+
+<h2>Text-to-speech</h2>
+<p>
+  The app uses your device's built-in text-to-speech engine to say Japanese and
+  English words and sentences aloud. This runs on your device.
+</p>
+
+<h2>Information stored on your device</h2>
+<p>
+  The app stores a small amount of information on your device so it can work:
+</p>
+<ul>
+  <li>Your Vocab list: the words and phrases you save, their readings and
+    translations, which mode you saved them from, and when.</li>
+  <li>Your study progress in Test mode: when each word is next due, your review
+    history for spaced repetition, and your daily study streak.</li>
+  <li>App settings, such as whether you've dismissed a tip.</li>
+</ul>
+<p>
+  This information stays on your device and is never sent to us. If you have Android
+  backup turned on, Android may include it in your device backup to your Google
+  account, which Google handles under its own privacy policy. You can delete any saved
+  word from the Vocab list, and you can remove everything by clearing the app's data
+  in your phone's settings or by uninstalling the app.
 </p>
 
 <h2>Internet use</h2>
 <p>
-  The app needs an internet connection for a few things only: downloading language
-  models from Google (the Japanese text-recognition model and the Japanese-to-English
-  translation model, each downloaded once and then used on your device), the
-  diagnostics described below, and processing subscription purchases through Google
-  Play. Nothing you point your camera at is sent over the internet.
+  The app uses the internet for a few things only:
+</p>
+<ul>
+  <li>Downloading language models from Google, once each: the Japanese
+    text-recognition model and the Japanese-to-English and English-to-Japanese
+    translation models. After that, translation runs on your device.</li>
+  <li>Online speech recognition, only when your phone has no offline speech pack for
+    the language you're speaking (see above).</li>
+  <li>The diagnostics described below.</li>
+  <li>Processing subscription purchases through Google Play.</li>
+</ul>
+<p>
+  Nothing you point your camera at is sent over the internet.
 </p>
 
 <h2>Diagnostics from Google's ML Kit</h2>
 <p>
   The app uses Google's ML Kit. According to Google, ML Kit collects limited technical
   information for diagnostics and usage analytics: device information (such as
-  manufacturer, model, and operating system version), app information (package name
+  manufacturer, model and operating system version), app information (package name
   and version), performance metrics, and an identifier for the app installation.
   Google states that this data is encrypted in transit and is not shared with third
   parties. It is sent to Google, not to us, and we cannot see it. It does not include
-  your camera images or the text you scan. You can read Google's description at
+  your camera images, the text you scan or the words you save. You can read Google's
+  description at
   <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener">developers.google.com/ml-kit/android-data-disclosure</a>.
 </p>
 
 <h2>Information we do not collect</h2>
 <ul>
   <li>We do not require or create user accounts.</li>
-  <li>We do not collect your name, email address, or location.</li>
+  <li>We do not collect your name, email address or location.</li>
+  <li>We do not receive your camera images, voice recordings, recognised text or
+    Vocab list.</li>
   <li>We do not show advertising, and we do not use our own analytics or tracking tools.</li>
-  <li>We do not sell your data, and we do not receive any of the diagnostic information described above.</li>
+  <li>We do not sell your data, and we do not receive any of the diagnostic information
+    described above.</li>
 </ul>
 
 <h2>Subscriptions and payments</h2>
 <p>
-  If you start a free trial or purchase a subscription, that transaction is handled
+  If you start a free trial or buy a subscription, that transaction is handled
   entirely by Google Play Billing. We do not receive or store your payment details
-  (card numbers, billing address, etc.). Google processes and holds that information
-  under its own privacy policy, available at
+  (card numbers, billing address and so on). Google processes and holds that
+  information under its own privacy policy, available at
   <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
   We only receive confirmation from Google Play that a subscription is active, so the
   app can unlock its features. You can manage or cancel your subscription at any time
@@ -106,10 +173,29 @@
 
 <h2>Third-party services</h2>
 <p>
-  The app uses Google's ML Kit for on-device recognition and translation, Google Play
-  services, and Google Play Billing for subscription payments. All three are provided
-  by Google and operate under Google's own privacy policy linked above. No other
-  third-party services are used.
+  The app uses these services, all provided by Google and covered by Google's privacy
+  policy linked above:
+</p>
+<ul>
+  <li>Google ML Kit, for on-device text recognition and translation.</li>
+  <li>Google Play services.</li>
+  <li>Your device's speech recognition service (usually Google's), for Chat mode and
+    speaking practice.</li>
+  <li>Google Play Billing, for subscription payments.</li>
+</ul>
+<p>
+  No other third-party services are used. The app also includes dictionary data from
+  the JMdict and KANJIDIC2 projects (Electronic Dictionary Research and Development
+  Group), which is stored inside the app and involves no data collection.
+</p>
+
+<h2>Your rights</h2>
+<p>
+  Because we do not collect or hold any personal information about you, there is
+  nothing for us to access, correct or delete on our side. Everything the app keeps is
+  on your own device, and you can delete it at any time as described above. If you
+  have any questions, or you live in the European Union or UK and want to exercise a
+  right under data protection law, contact us at the address below.
 </p>
 
 <h2>Children's privacy</h2>
@@ -121,7 +207,7 @@
 
 <h2>Changes to this policy</h2>
 <p>
-  If this policy changes, the updated version will be posted at this same page with a
+  If this policy changes, the updated version will be posted on this same page with a
   revised "Last updated" date.
 </p>
 
